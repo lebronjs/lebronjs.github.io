@@ -2,11 +2,13 @@
 * @Author: tangxu
 * @Date:   2016-04-02 17:39:09
 * @Last Modified by:   tangxu
-* @Last Modified time: 2016-04-04 18:06:03
+* @Last Modified time: 2016-04-04 18:32:47
 */
 
 'use strict';
 $(function(){
+    //设置body高度为浏览器可视区域高度
+    $("body").height($(window).height());
     //轮播图
     $(".gallery").slider({
         prevBtn:     ".prevBtn",//上一页按钮
