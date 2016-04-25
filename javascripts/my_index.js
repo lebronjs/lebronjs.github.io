@@ -22,9 +22,10 @@ $(function(){
         scrollWhere: "next"
     });
     //雪
+	
     $.snowFall({
             //创建粒子数量，密度
-            particleNo: 300,
+            particleNo: 100,
             //粒子下拉速度
             particleSpeed:30,
             //粒子在垂直（Y轴）方向运动范围
@@ -32,7 +33,7 @@ $(function(){
             //粒子在垂直（X轴）方向运动范围
             particleX_Range:1000,
             //是否绑定鼠标事件
-            bindMouse: true,
+            bindMouse: false,
             //相机离Z轴原点距离
             zIndex:600,
             //摄像机视野角度
