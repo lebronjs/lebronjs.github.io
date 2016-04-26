@@ -80,8 +80,8 @@
                     else{
                         gb.prevBtn.show();
                         gb.nextBtn.show();
-                        gb.prevBtn.off().on('click',this.scrollPrev);
-                        gb.nextBtn.off().on('click',this.scrollLNext);
+                        gb.prevBtn.off().on('click tap',this.scrollPrev);
+                        gb.nextBtn.off().on('click tap',this.scrollLNext);
                     }
                     if(opts.autoPlay === true){
                         if(opts.scrollWhere === "prev"){
