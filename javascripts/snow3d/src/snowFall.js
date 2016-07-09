@@ -129,7 +129,7 @@ jQuery.extend({
 		container = document.createElement('div');
 		$(container).css({
 			position:"absolute",
-			top:"0"
+			bottom:"0"
 		});
 		document.body.appendChild(container);
 //		透视相机，物体大小随距离摄像机远近改变，对比投影相机
