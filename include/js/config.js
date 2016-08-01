@@ -5,7 +5,8 @@ seajs.config({
     alias: {
         'jquery': 'lib/jq/jquery-1.11.2',
 		'commonFun': 'lib/commonFun/main',
-		'snowFall': 'lib/snowFall/src/js/snowFall.jquery'
+		'snowFall': 'lib/snowFall/src/js/snowFall.jquery',
+        'bootstrap': 'lib/bootstrap/src/js/bootstrap.min.js'
     },
 	// 预加载项
     preload: ["jquery"],

@@ -1,0 +1,282 @@
+/* 自定义CSS */
+.first-slider .row{
+    margin-top: 80px;
+}
+.logo{
+  display:block;
+  padding-bottom: 30px;
+}
+.pc-wrap img{
+  width:620px;
+}
+nav.navbar{
+  margin-bottom: 0;
+}
+section{
+  padding-top:60px;
+}
+.mobileImg{
+  display:none;
+}
+.hide{
+  display:none;
+}
+/*slider文字介绍*/
+.slider-title{
+  font-size: 80px;
+  color:#46505b;
+  font-weight: 700;
+  line-height: 0.9;
+  margin-bottom: 35px;
+  padding-top: 0px;
+}
+.slider-slogan{
+  font-size: 26px;
+  color:#46505b;
+  font-weight: 300;
+  line-height: 1.2;
+  font-style: italic;
+  padding-right: 10px;
+  display:none;
+}
+.nowrap {
+    white-space: nowrap;
+    display:block;
+}
+/*slider动画*/
+.slider-wrapper{
+  position:relative;
+  margin-top:0;
+}
+.seconed-slider{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffd306;
+  transition:2s ease;
+  -webkit-transition:2s ease;
+  clip-path: polygon(0% 0%, 0% 0%, 0% 0%);
+  -webkit-clip-path: polygon(0% 0%, 0% 0%, 0% 0%);
+}
+.animation .seconed-slider{
+  transition:4s ease;
+  -webkit-transition:4s ease;
+  clip-path: polygon(0% 0%, 95% 0%, 0% 180%);
+  -webkit-clip-path: polygon(0% 0%, 95% 0%, 0% 180%);
+}
+/*banner分割和主体内容*/
+.banner.banner-aaa{
+  height:160px;
+  background-color: #2c3540;
+  text-align: center;
+}
+.banner.banner-bbb{
+  background-color: #ffd306;
+}
+.banner.banner-bbb ol{
+  margin-top:45px;
+}
+.banner .motto{
+  font-size: 60px;
+  color:#fff;
+  font-weight: 300;
+  line-height: 160px;
+  margin-bottom: 35px;
+  padding-top: 0px;
+  font-style: italic;
+}
+/*尾部*/
+footer{
+  height:220px;
+  background-color: #2c3540;
+}
+/*返回顶部*/
+.gotop-arrow{
+  width: 44px;
+  height:44px;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  margin-left: 660px;
+  background: #2c3540 no-repeat 50% 50%;
+  background-image: url(../../nicImgs/gotop-arrow.png);
+  cursor: pointer;
+}
+/*轮播图部分css*/
+.item img{
+  width:100%;
+}
+.gallery-thumb{
+  text-align: center;
+  background-color: #ffd306;
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: 80px;
+  padding-left: 0;
+}
+.gallery-thumb img{
+  max-width: 100%;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.gallery-thumb .thumb-title{
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1;
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+.gallery-thumb .thumb-job{
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 12px;
+  font-weight: 600;
+}
+.thumb-preview{
+  cursor: pointer;
+  position: relative;
+}
+.thumb-preview:hover img{
+  -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  -webkit-filter: saturate(2);
+   filter: saturate(2);
+}
+
+.thumb-preview.active img{
+  -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  -webkit-filter: saturate(2);
+     filter: saturate(2);
+}
+/*简历部分css*/
+.address{
+  background: #efb73e;
+  color: #fff;
+  padding: 10px 0;
+}
+.cbox{
+  margin-bottom: 30px;
+  color: #FFF;
+  padding: 50px;
+}
+/* 定义cbox颜色 */
+.green{
+  background: #2ecc71;
+}
+
+.orange{
+  background: orange;
+}
+
+.red{
+  background: #dd4814;
+}
+
+.bbox{
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+  margin-bottom:30px;
+  padding: 50px;
+}
+@media screen and (min-width:320px){
+  section{
+    padding-top:10px;
+  }
+  .gallery-thumb{
+    display:none;
+  }
+  /*slider文字介绍*/
+  .slider-title{
+    font-size: 24px;
+    color:#46505b;
+    font-weight: 700;
+    line-height: 0.9;
+    margin-bottom: 35px;
+    padding-top: 0px;
+  }
+  .slider-slogan{
+    font-size: 16px;
+    color:#46505b;
+    font-weight: 300;
+    line-height: 1.2;
+    font-style: italic;
+    padding-right: 10px;
+    display:block;
+  }
+  .banner .motto{
+    font-size: 16px;
+    color:#fff;
+    font-weight: 300;
+    line-height: 160px;
+    margin-bottom: 35px;
+    padding-top: 0px;
+    font-style: italic;
+  }
+  .logo{
+    display:none;
+  }
+  .desktopImg{
+    display:none;
+  }
+  .mobileImg{
+    display:block;
+    max-width: 100%;
+  }
+  .first-slider .col-xs-6 {
+      padding: 0;
+  }
+}
+@media screen and (min-width:750px){
+  section{
+    padding-top:60px;
+  }
+  #myCarousel .item{
+    height:600px;
+  }
+  .gallery-thumb{
+    display:block;
+  }
+  /*slider文字介绍*/
+  .slider-title{
+    font-size: 80px;
+    color:#46505b;
+    font-weight: 700;
+    line-height: 0.9;
+    margin-bottom: 35px;
+    padding-top: 0px;
+  }
+  .slider-slogan{
+    font-size: 26px;
+    color:#46505b;
+    font-weight: 300;
+    line-height: 1.2;
+    font-style: italic;
+    padding-right: 10px;
+    display:none;
+  }
+  .banner .motto{
+    font-size: 60px;
+    color:#fff;
+    font-weight: 300;
+    line-height: 160px;
+    margin-bottom: 35px;
+    padding-top: 0px;
+    font-style: italic;
+  }
+  .logo{
+    display:block;
+  }
+  .desktopImg{
+    display:block;
+  }
+  .mobileImg{
+    display:none;
+    max-width: 100%;
+  }
+}
