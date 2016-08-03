@@ -3,7 +3,7 @@ seajs.config({
     map: [[/^(.*\.(?:css|js))$/i, '$1?v=2.0.0.0']],
     // 别名配置
     alias: {
-        'jquery': 'lib/jq/jquery-1.11.2',
+        'jquery': 'lib/jq/jquery-2.1.4.min.js',
 		'commonFun': 'lib/commonFun/main',
 		'snowFall': 'lib/snowFall/src/js/snowFall.jquery',
         'bootstrap': 'lib/bootstrap/src/js/bootstrap.min.js'
