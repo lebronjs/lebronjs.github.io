@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title></title>
-<link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-<link href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="include/css/nicZoom.css" />
-<link rel="bookmark"  type="image/x-icon"  href="./favicon.ico"/>
+<title>Nic Zoom</title>
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" >
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="include/css/nicZoom.css" type="text/css" />
+<link rel="bookmark"   href="./favicon.ico"  type="image/x-icon"/>
 <link rel="shortcut icon" href="./favicon.ico">
 <link rel="icon" href="./favicon.ico">
 <style></style>
@@ -19,7 +19,7 @@
   <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
+<body class="loadStyle">
 <input id="dispatcher" type="hidden"  value="nicZoom" name="dispatcher">
 <nav class="navbar navbar-inverse navbar-fixed-top" id="aCont">
     <div class="container">
@@ -265,7 +265,17 @@
   </div>
 </div>
 </footer>
+
 <div class="gotop-arrow hide" title="回到顶部"></div>
+<div id="loadDiv">
+    <div class="wrapDiv">
+      <span class="bounce1"></span>
+      <span class="bounce2"></span>
+      <span class="bounce3"></span>
+      <span class="bounce4"></span>
+      <span class="bounce5"></span>
+    </div>
+</div>
 <script id="seajsNode" data-config="config.js?2.0" data-main="main.js?2.0" src="include/js/seajs/sea.js?2.0"></script>
 </body>
 </html>

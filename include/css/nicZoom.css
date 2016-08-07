@@ -280,3 +280,92 @@ footer{
     max-width: 100%;
   }
 }
+
+
+/*loading层样式*/
+body.loadStyle{
+  overflow: hidden;
+}
+#loadDiv{
+  width:100%;
+  height:100%;
+  background-color:#ffd306;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index: 9999;
+  text-align: center;
+}
+#loadDiv .wrapDiv{
+  width:500px;
+  height:16px;
+  margin:auto;
+  position:absolute;
+  top:0;left:0;bottom:0;right:0;
+}
+#loadDiv span{
+  width: 16px;
+  height: 16px;
+  background-color: #67CF22;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation:bouncedelay 2.8s infinite ease-in-out;
+          animation:bouncedelay 2.8s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+#loadDiv .bounce1{
+  background-color: #cd402e;
+}
+#loadDiv .bounce2{
+  -webkit-animation-delay: -0.16s;
+          animation-delay: -0.16s;
+  background-color: #b07da8;
+}
+#loadDiv .bounce3{
+  -webkit-animation-delay: -0.32s;
+          animation-delay: -0.32s;
+  background-color:#e3b;
+}
+#loadDiv .bounce4{
+  -webkit-animation-delay: -0.48s;
+          animation-delay: -0.48s;
+  background-color: #06AAA2;
+}
+#loadDiv .bounce5{
+  -webkit-animation-delay: -0.64s;
+          animation-delay: -0.64s;
+  background-color: #FF0909;
+}
+@-webkit-keyframes bouncedelay{
+  0%{
+
+    -webkit-transform: translate(-400px,0);
+    opacity: 0;
+  }
+  35%,65%{
+    -webkit-transform: translate(-60px,0);
+    opacity: 1;
+  }
+  100%{
+
+    -webkit-transform:translate(400px,0);
+    opacity: 0;
+  }
+}
+@keyframes bouncedelay{
+  0%{
+
+    transform: translate(-400px,0);
+    opacity: 0;
+  }
+  35%,65%{
+    transform: translate(-60px,0);
+    opacity: 1;
+  }
+  100%{
+    transform:translate(400px,0);
+    opacity: 0;
+  }
+}
+

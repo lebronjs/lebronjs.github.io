@@ -1,8 +1,16 @@
 define(function(require,exports,module){
     require("bootstrap");
-	setTimeout(function(){
-      $("body").addClass('animation');
-    },1000);
+    var commonFun = require('commonFun');
+    commonFun.loadImg(loadSuccFun);
+
+    function loadSuccFun (){
+        $("body").removeClass("loadStyle");
+        $("#loadDiv").fadeOut("slow");
+        setTimeout(function(){
+          $("body").addClass('animation');
+        },1000);
+    }
+
 
     /*滚动效果开始*/
     $(window).scroll(function(){
