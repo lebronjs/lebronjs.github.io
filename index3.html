@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nic Zoom</title>
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" >
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="include/css/nicZoom.css" type="text/css" />
+<link rel="bookmark"   href="./favicon.ico"  type="image/x-icon"/>
+<link rel="shortcut icon" href="./favicon.ico">
+<link rel="icon" href="./favicon.ico">
+<style></style>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class="loadStyle">
+<input id="dispatcher" type="hidden"  value="nicZoom" name="dispatcher">
+<nav class="navbar navbar-inverse navbar-fixed-top" id="aCont">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Nic Zoom</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#aCont" class="navToBtn">Home</a></li>
+          <li><a href="#bCont" class="navToBtn">Profile</a></li>
+          <li><a href="#cCont" class="navToBtn">Other</a></li>
+          <li><a href="./pickStar.html">Pick Star</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="slider-wrapper first-slider">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-8 clearfix logo"><img class="logo" src="nicImgs/logo21.png"></div>
+          <div class="col-xs-6 col-sm-6 col-md-6 pc-wrap">
+              <img class="desktopImg" src="nicImgs/ppc-box-page-111.png">
+              <img class="mobileImg" src="nicImgs/mobile-page-1.png">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 slogan-wrap">
+            <header class="slider-title">Allen <span class="nowrap">Nic Zoom</span></header>
+            <p class="slider-slogan">Don’t reply when you’re sad</p>
+            <p class="slider-slogan">Don’t make promise when you’re in joy</p>
+            <p class="slider-slogan">Don’t take decisions when you’re angry</p>
+          </div>
+      </div>
+    </div>
+    <div class="slider-wrapper seconed-slider">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-8 clearfix logo"><img class="logo" src="nicImgs/logo21.png"></div>
+              <div class="col-xs-6 col-sm-6 col-md-6 pc-wrap">
+                  <img class="desktopImg" src="nicImgs/ppc-box-page-222.png">
+                  <img class="mobileImg" src="nicImgs/mobile-page-2.png">
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 slogan-wrap">
+                <header class="slider-title">Allen <span class="nowrap">Nic Zoom</span></header>
+                <p class="slider-slogan">Don’t reply when you’re sad</p>
+                <p class="slider-slogan">Don’t make promise when you’re in joy</p>
+                <p class="slider-slogan">Don’t take decisions when you’re angry</p>
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="banner banner-aaa">
+  <header class="motto">To remember, to let go, and to move on</header>
+</div>
+
+<section class="container" id="bCont">
+      <div class="row">
+        <div id="myCarousel" class="carousel slide">
+           <!-- 轮播（Carousel）项目 -->
+           <div class="carousel-inner">
+              <div class="item active">
+                <img src="nicImgs/slide1.jpg" alt="First slide">
+              </div>
+              <div class="item">
+                 <img src="nicImgs/slide2.jpg" alt="Second slide">
+              </div>
+              <div class="item">
+                 <img src="nicImgs/slide3.jpg" alt="Third slide">
+              </div>
+              <div class="item">
+                 <img src="nicImgs/slide4.jpg" alt="Fourth slide">
+              </div>
+              <div class="item">
+                 <img src="nicImgs/slide5.jpg" alt="Fiveth slide">
+              </div>
+           </div>
+           <!-- 轮播（Carousel）导航 -->
+           <div class="controller-wrap clearfix">
+              <a class="left carousel-control prevBtn" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control nextBtn" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+           </div>
+        </div>
+      </div>
+</section>
+<div class="banner banner-bbb">
+     <!-- 轮播（Carousel）指标 -->
+     <ol class="gallery-thumb" data-ride="cardousel">
+      <div class="container">
+        <div class="row">
+          <li class="col-md-1"></li>
+          <li class="col-sm-4 col-md-2 thumb-preview active" data-target="#myCarousel" data-slide-to="0">
+            <img src="nicImgs/slide1.jpg" alt="">
+            <header class="thumb-title">Barbara</header>
+            <p class="thumb-job">Journalist</p>
+          </li>
+          <li class="col-sm-4 col-md-2 thumb-preview" data-target="#myCarousel" data-slide-to="1">
+            <img src="nicImgs/slide2.jpg" alt="">
+            <header class="thumb-title">Enzo</header>
+            <p class="thumb-job">Artisan</p>
+          </li>
+          <li class="col-sm-4 col-md-2 thumb-preview"  data-target="#myCarousel" data-slide-to="2">
+            <img src="nicImgs/slide3.jpg" alt="">
+            <header class="thumb-title">Ambra</header>
+            <p class="thumb-job">Dance Therapy Teacher</p>
+          </li>
+          <li class="col-sm-4 col-md-2 thumb-preview" data-target="#myCarousel" data-slide-to="3">
+            <img src="nicImgs/slide4.jpg" alt="">
+            <header class="thumb-title">Enzo</header>
+            <p class="thumb-job">Artisan</p>
+          </li>
+          <li class="col-sm-4 col-md-2 thumb-preview"  data-target="#myCarousel" data-slide-to="4">
+            <img src="nicImgs/slide5.jpg" alt="">
+            <header class="thumb-title">Ambra</header>
+            <p class="thumb-job">Dance Therapy Teacher</p>
+          </li>
+        </div>
+      </div>
+    </ol>
+</div>
+<section class="container" id="cCont">
+      <!-- 简历的头部 //-->
+      <h1 class="text-success">My Profile</h1>
+      <div class="row cvheader">
+        <div class="col-lg-7 col-md-7 col-xs-12">
+          <h1 class="text-primary">Nicholas James</h1>
+          <p>前端开发工程师</p>
+          <p>系统集成项目管理工程师</p>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-12">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-4">
+              <p id="contact" class="address text-center">联系</p>
+            </div>
+            <div class="col-lg-8 col-md-8 col-xs-8">
+              <p>lebron@gmail.com</p>
+              <p>13336666999</p>
+              <p>贝克街221b</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-toggle="tooltip" data-placement="left" id="avatar" title="我是Nic" class="col-lg-2 col-md-2 col-xs-12">
+          <p>
+            <!-- 定义图片为响应式，并且添加圆角效果，以便保证图片在不同设备上都可以完美显示 //-->
+            <img class="img-responsive img-rounded" src="nicImgs/cat.jpeg" alt="">
+           </p>
+        </div>
+      </div>
+    <!-- 定义简历的主体部分 //-->
+    <div class="container">
+      <div class="row cvbody">
+        <!-- 定义两个区域//-->
+        <div class="col-lg-6 col-md-6 col-xs-12">
+          <div class="row">
+            <div class="cbox green">
+              <h4>个人介绍</h4>
+              <p>
+                Why don't you let people see the good in you? Because when people see good, they expect good. And I don't want to have to live up to anyone's expectations.
+              </p>
+            </div>
+            <div class="cbox red">
+              <h4>个人技能</h4>
+              <p>
+                <!-- 使用Bootstrap3的组件添加技能 //-->
+                HTML/CSS/Javascript
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success" style="width:70%"></div>
+                </div>
+
+                Jquery/Zepto
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" style="width:80%"></div>
+                </div>
+
+                PHP
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" style="width:40%"></div>
+                </div>
+
+                Photoshop/UI
+                <div class="progress">
+                  <div class="progress-bar progress-bar-warning" style="width:40%"></div>
+                </div>
+              </p>
+            </div>
+            <div class="cbox orange">
+              <h4>语言水平</h4>
+              <p>
+                <canvas id="en" width="150" height="150" class="pull-left"></canvas>
+                <canvas id="zh" width="150" height="150" class="pull-right"></canvas>
+                <p class="clearfix"></p>
+              </p>
+              <p id=“lanNote”><span class="pull-left">英语</span><span class="pull-right">中文</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 为了清楚的分割两个区域，添加了一个空白区域，或者也可以在CSS中定义Margin实现//-->
+        <div class="col-lg-1 col-md-1 col-xs-12"></div>
+
+        <div class="col-lg-5 col-md-5 col-xs-12">
+          <div class="row">
+            <div class="bbox">
+              <h4>教育背景</h4>
+              <p>Why don't you let people see the good in you? Because when people see good, they expect good. And I don't want to have to live up to anyone's expectations.</p>
+            </div>
+            <div class="bbox">
+              <h4>工作经验</h4>
+              <p>Why don't you let people see the good in you? Because when people see good, they expect good. And I don't want to have to live up to anyone's expectations.</p>
+            </div>
+            <div class="bbox">
+              <h4>个人爱好</h4>
+              <p>
+                <span class="glyphicon glyphicon-pencil"></span> 写作
+                <span class="glyphicon glyphicon-plane"></span> 旅游
+                <p><span class="glyphicon glyphicon-cutlery"></span> 美食</p>
+                <p><span class="glyphicon glyphicon-music"></span> 音乐</p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+<footer class="footer">
+<div class="container">
+  <div class="row">
+  </div>
+</div>
+</footer>
+
+<div class="gotop-arrow hide" title="回到顶部"></div>
+<div id="loadDiv">
+    <div class="wrapDiv">
+      <span class="bounce1"></span>
+      <span class="bounce2"></span>
+      <span class="bounce3"></span>
+      <span class="bounce4"></span>
+      <span class="bounce5"></span>
+    </div>
+</div>
+<script id="seajsNode" data-config="config.js?2.0" data-main="main.js?2.0" src="include/js/seajs/sea.js?2.0"></script>
+</body>
+</html>
